@@ -12,5 +12,5 @@
 }
 
 .slow-spin {
-	animation: rotation 5s linear infinite;
+	animation: rotation 45s linear infinite;
 }

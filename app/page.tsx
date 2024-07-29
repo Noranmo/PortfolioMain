@@ -75,9 +75,9 @@ function MoustacheMan() {
 			<Image
 				src='/assets/me.png'
 				alt='MoustacheMan'
-				width={560}
-				height={560}
-				className='w-[300px] h-[300px] z-[1] md:h-[560px] md:w-[560px]'
+				width={480}
+				height={480}
+				className='w-[300px] h-[300px] z-[1] md:h-[480px] md:w-[480px]'
 			/>
 		</div>
 	)
