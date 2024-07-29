@@ -1,0 +1,38 @@
+.sidebar {
+	width: 28px;
+	height: 28px;
+	color: white;
+	transition: opacity 0.2s, rotate 2s;
+}
+.sidebar:hover {
+	color: #ff7b47;
+	transform: scale(0.9);
+	font-weight: 600;
+	rotate: 180deg;
+	transition: all 0.3s linear 0s;
+}
+
+.navbar {
+	cursor: pointer;
+	transition: opacity 0.2s, rotate 2s;
+}
+
+.navbar:hover {
+	transform: scale(0.9);
+	font-weight: 600;
+	rotate: 180deg;
+	transition: all 0.3s linear 0s;
+}
+
+#Instagram:hover {
+	content: url('../public/assets/icons/instagram_active.svg');
+	transition: all 0.3s linear 0s;
+}
+#GitHub:hover {
+	content: url('../public/assets/icons/gitHub_active.svg');
+	transition: all 0.3s linear 0s;
+}
+#LinkedIn:hover {
+	content: url('../public/assets/icons/linkedIn_active.svg');
+	transition: all 0.3s linear 0s;
+}
