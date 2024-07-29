@@ -29,7 +29,7 @@ export const Socials = [
 		id: 'GitHub',
 		name: 'GitHub',
 		src: '/assets/icons/gitHub.svg',
-		link: 'https://github.com/Noranmo?tab=projects',
+		link: 'https://github.com/Noranmo?tab=repositories',
 	},
 	{
 		id: 'Instagram',
