@@ -53,7 +53,7 @@ function DownloadCv() {
 	return (
 		<a
 			href={
-				'https://drive.google.com/file/d/14Wwe0fYcM_Nd9z3_vm5ZMCD1_sDXf3Jk/view?usp=sharing'
+				'https://drive.google.com/file/d/14h8h27CqDb6tXHw9rt47Mz2iIiVEZrqI/view?usp=sharing'
 			}
 			target='_blank'
 		>

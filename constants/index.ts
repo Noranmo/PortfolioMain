@@ -96,7 +96,7 @@ export const ProImages = [
 		id: 3,
 		src: '/assets/projects/TodoList.png',
 		bigImage: project04Big,
-		title: 'Todo-list',
+		title: 'To-do List+',
 		skills: 'React.js, TypeScript, Redux, Unit Tests, StoryBook, API',
 		githubLink: 'https://github.com/Noranmo/Todo-list',
 	},
