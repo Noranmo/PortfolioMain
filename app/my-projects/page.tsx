@@ -7,11 +7,12 @@ const Page = () => {
 		<div className='flex items-center gap-56 flex-col md:flex-row h-screen bg-[#0C011A]'>
 			<div className='flex flex-col pl-60 md:pl-40 gap-3'>
 				<h1 className='text-[50px] text-white font-semibold'>
-					My Work<span className='text-red-500'>.</span>
+					Recent Work<span className='text-red-500'>.</span>
 				</h1>
 				<p className='max-w-[400px] text-[16px] text-gray-200 md:text-gray-400'>
-					This is where my portfolio is located. As I work on projects, I will
-					be adding to it. Each project has its own page on GitHub.
+					This is where my portfolio is located. As I work on new projects, I
+					will update this page and add them here. Each project has its own page
+					on GitHub.
 				</p>
 			</div>
 			<div className='absolute -left-10 bottom-5 rotate-12 animate-pulse duration-75'>
@@ -23,7 +24,7 @@ const Page = () => {
 					className='w-full h-full md:block'
 				/>
 			</div>
-			<ProjectSlider />
+			{<ProjectSlider />}
 		</div>
 	)
 }

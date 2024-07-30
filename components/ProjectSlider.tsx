@@ -6,6 +6,7 @@ import { Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/free-mode'
+import '../style/slider.css'
 
 import { FreeMode, Pagination } from 'swiper/modules'
 import { ProImages, ProImages2 } from '@/constants'
@@ -32,11 +33,11 @@ const ProjectSlider = () => {
 				// Autoplay
 				modules={[FreeMode, Pagination]}
 			>
-				<SwiperSlide className=' mb-14'>
+				<SwiperSlide className='mb-14'>
 					<div className='grid grid-cols-2 gap-4 md:px-16'>
 						{ProImages.map(image => (
 							<div
-								className='relative group w-[150px] h-[150px]  md:w-[230px] md:h-[230px]'
+								className='relative w-[150px] h-[150px] md:w-[230px] md:h-[230px]'
 								key={image.src}
 							>
 								{' '}

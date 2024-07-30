@@ -7,7 +7,7 @@ import fox from '../public/assets/icons/fox_logo.svg'
 
 const Navbar = () => {
 	return (
-		<div className='fixed top-0 bg-transparent z-[20] w-full flex gap-5 md:justify-between md:px-40 p-5'>
+		<div className='fixed top-0 bg-transparent z-[20] w-full flex flex-col xs:flex-row gap-5 md:justify-between md:px-40 p-5'>
 			<Link key={'Logo_link'} href={'/'}>
 				<h1 className='flex text-white text-[45px]'>
 					<Image
@@ -22,7 +22,7 @@ const Navbar = () => {
 					<span className='text-red-500'>.</span>
 				</h1>
 			</Link>
-			<div className='flex flex-row gap-5 p-5'>
+			<div className='flex flex-row  gap-5 xs:p-5'>
 				{Socials.map(social => (
 					<>
 						<Link key={social.name} href={social.link} target='_blank'>

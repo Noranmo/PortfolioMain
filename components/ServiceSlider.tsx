@@ -12,15 +12,19 @@ import { ServiceData } from '@/constants'
 
 const ServiceSlider = () => {
 	return (
-		<div className='absolute bottom-0 right-32 md:bottom-40 md:right-28 w-[55%] md:w-[50%]'>
+		<div className='md:bottom-40 md:right-28 dm:right-20 w-[45%] md:w-[25%] lg:w-[30%] mddd:w-[40%] xlll:w-[45%] xll:w-[50%]'>
 			<Swiper
 				breakpoints={{
-					340: {
-						slidesPerView: 1,
+					1350: {
+						slidesPerView: 3,
 						spaceBetween: 15,
 					},
-					700: {
-						slidesPerView: 3,
+					1130: {
+						slidesPerView: 2,
+						spaceBetween: 15,
+					},
+					340: {
+						slidesPerView: 1,
 						spaceBetween: 15,
 					},
 				}}
@@ -36,14 +40,14 @@ const ServiceSlider = () => {
 			>
 				{ServiceData.map(item => (
 					<SwiperSlide key={item.title}>
-						<div className='rounded-md cursor-pointer flex flex-col gap-6 mb-10 group relative text-white shadow-lg rounde-xl px-6 py-8 h-[300px] w-[250-px] overflow-hidden'>
+						<div className='rounded-md cursor-pointer flex flex-col gap-6 mb-10 group relative text-white shadow-lg rounde-xl px-6 py-8 h-[230px] lg:h-[300px] w-[250-px] overflow-hidden'>
 							<div
 								className='absolute inset-0 bg-cover bg-center'
 								style={{ backgroundImage: `url(${item.backgroundImage})` }}
 							/>
 							<div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-50' />
 							<div className='relative flex flex-col gap-3'>
-								<item.icon className='text-blue-600 group-hover:text-blue-400 w-[32px] h-[32px]' />
+								<item.icon className='text-orange-500 group-hover:text-blue-400 w-[32px] h-[32px]' />
 								<h1 className='text-lg lg:text-2xl'>{item.title}</h1>
 								{/* <p className='lg:text-[18px]'>{item.content}</p> */}
 							</div>

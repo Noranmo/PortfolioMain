@@ -8,7 +8,7 @@ import '../style/projectItem.css'
 
 export default function Home() {
 	return (
-		<main className="flex items-center h-screen relative bg-cover bg-[url('/assets/bg-explosion.png')]">
+		<main className="flex overflow-hidden items-center h-screen relative bg-cover bg-[url('/assets/bg-explosion.png')]">
 			<DotsAnimation />
 			<MoustacheMan />
 			<TopLeftImage />
@@ -19,12 +19,12 @@ export default function Home() {
 
 function HomeInfoTogether() {
 	return (
-		<div className='flex flex-col gap-3 z-[10] pl-40 pt-40'>
-			<h1 className='text-[50px] text-white max-w-[700px]'>
+		<div className='flex flex-col gap-3 z-[10] pl-40 pt-40 '>
+			<h1 className='text-[35px] sm:text-[50px] text-white max-w-[300px] sm:max-w-[370px] md:max-w-[700px]'>
 				Hi, my name is Andrii {''}
 				<span className='text-red-500'>Frontend developer</span>
 			</h1>
-			<p className='text-[16px] text-gray-200 md:text-gray-400 mb-10 md:pb-2 max-w-[400px] '>
+			<p className='text-[16px] text-gray-200 md:text-gray-400 mb-10 md:pb-2 max-w-[250px] sm:max-w-[400px] '>
 				with passion for learning and creating.
 			</p>
 			<div className=' w-[200px] h-[300px] md:w-[160px] md:h-[300px] mt-1'>
@@ -71,13 +71,13 @@ function DownloadCv() {
 
 function MoustacheMan() {
 	return (
-		<div className='absolute right-10 md:right-40 bottom-0 z-[10]'>
+		<div className='absolute -right- sm:right-10 md:right-50 mdd:right-40 bottom-0 z-[10]'>
 			<Image
 				src='/assets/me.png'
 				alt='MoustacheMan'
 				width={480}
 				height={480}
-				className='w-[300px] h-[300px] z-[1] md:h-[480px] md:w-[480px]'
+				className='w-[300px] h-[300px] z-[1] md:h-[400px] md:w-[400px] mdd:h-[480px] mdd:w-[480px]'
 			/>
 		</div>
 	)
