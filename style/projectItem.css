@@ -3,13 +3,18 @@
 	align-items: center;
 	padding: 120px 0px 40px 0px;
 	background-color: #0c011a;
+	min-height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .container {
 	margin: 0px auto;
 	padding: 0px 15px;
 	max-width: 1200px;
-	min-height: auto;
+	min-height: 100%;
 }
 
 .title-1 {

@@ -10,13 +10,13 @@ import {
 	RxDashboard,
 } from 'react-icons/rx'
 
-import project01Big from '../public/assets/projects/01-big.jpg'
+import project01Big from '../public/assets/projects/MrFox.png'
 
-// import project02Big from './../img/projects/02.jpg'
+import project02Big from '../public/assets/projects/PortfolioMain.png'
 
-// import project03Big from './../img/projects/03.jpg'
+import project03Big from '../public/assets/projects/Portfoliov2.png'
 
-// import project04Big from './../img/projects/04.jpg'
+import project04Big from '../public/assets/projects/TodoList.png'
 
 export const Socials = [
 	{
@@ -70,35 +70,35 @@ export const NavLinks = [
 export const ProImages = [
 	{
 		id: 0,
-		src: '/assets/projects/SpaceCity.jpg',
+		src: '/assets/projects/MrFox.png',
 		bigImage: project01Big,
-		title: 'Gaming portal',
-		skills: 'HTML, CSS, JS',
-		githubLink: 'https://github.com',
+		title: 'MrFox web-shop',
+		skills: 'HTML, CSS, SCSS, JS, EJS, Node.js, Express.js',
+		githubLink: 'https://github.com/Noranmo/MrFox',
 	},
 	{
 		id: 1,
-		src: '/assets/projects/SpaceCity1.jpg',
-		bigImage: project01Big,
-		title: 'Video portal',
-		skills: 'HTML, CSS, JS',
-		githubLink: 'https://github.com',
+		src: '/assets/projects/PortfolioMain.png',
+		bigImage: project02Big,
+		title: 'Main Portfolio',
+		skills: 'React.js, TypeScript, Node.js, TailwindCss, CSS',
+		githubLink: 'https://github.com/Noranmo/PortfolioMain',
 	},
 	{
 		id: 2,
-		src: '/assets/projects/SpaceCity2.jpg',
-		bigImage: project01Big,
-		title: 'Video service',
-		skills: 'HTML, CSS, JS',
-		githubLink: 'https://github.com',
+		src: '/assets/projects/Portfoliov2.png',
+		bigImage: project03Big,
+		title: 'Portfolio page on React',
+		skills: 'React.js, React-router-dom, JS, CSS',
+		githubLink: 'https://github.com/Noranmo/Portfolio_React',
 	},
 	{
 		id: 3,
-		src: '/assets/projects/SpaceCity3.jpg',
-		bigImage: project01Big,
-		title: 'Dating app',
-		skills: 'HTML, CSS, JS',
-		githubLink: 'https://github.com',
+		src: '/assets/projects/TodoList.png',
+		bigImage: project04Big,
+		title: 'Todo-list',
+		skills: 'React.js, TypeScript, Redux, Unit Tests, StoryBook, API',
+		githubLink: 'https://github.com/Noranmo/Todo-list',
 	},
 ]
 

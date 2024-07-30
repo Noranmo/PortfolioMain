@@ -21,15 +21,16 @@ const ProjectSlider = () => {
 						spaceBetween: 30,
 					},
 				}}
-				autoplay={{
-					delay: 4500,
-					disableOnInteraction: false,
-				}}
+				// autoplay={{
+				// 	delay: 4500,
+				// 	disableOnInteraction: false,
+				// }}
 				freeMode={true}
 				pagination={{
 					clickable: true,
 				}}
-				modules={[Autoplay, FreeMode, Pagination]}
+				// Autoplay
+				modules={[FreeMode, Pagination]}
 			>
 				<SwiperSlide className=' mb-14'>
 					<div className='grid grid-cols-2 gap-4 md:px-16'>
@@ -63,7 +64,7 @@ const ProjectSlider = () => {
 						))}
 					</div>
 				</SwiperSlide>
-				<SwiperSlide className='mb-14'>
+				{/* <SwiperSlide className='mb-14'>
 					<div className='grid grid-cols-2 gap-4 md:px-16'>
 						{ProImages2.map(image => (
 							<div
@@ -92,7 +93,7 @@ const ProjectSlider = () => {
 							</div>
 						))}
 					</div>
-				</SwiperSlide>
+				</SwiperSlide> */}
 			</Swiper>
 		</div>
 	)

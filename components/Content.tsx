@@ -14,7 +14,7 @@ const Content = () => {
 		let project1 = ProImages[newId]
 
 		return (
-			<main className='section'>
+			<main className='section h-screen'>
 				<div className='container'>
 					<div className='project-details'>
 						<h1 className='title-1'>{project1.title}</h1>

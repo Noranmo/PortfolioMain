@@ -12,7 +12,7 @@ import { ServiceData } from '@/constants'
 
 const ServiceSlider = () => {
 	return (
-		<div className='absolute bottom-0 right-20 md:bottom-40 md:right-28 w-[60%] md:w-[55%]'>
+		<div className='absolute bottom-0 right-32 md:bottom-40 md:right-28 w-[55%] md:w-[50%]'>
 			<Swiper
 				breakpoints={{
 					340: {
