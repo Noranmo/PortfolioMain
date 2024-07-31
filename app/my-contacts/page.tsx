@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 function Page() {
 	return (
-		<div className='flex items-center gap-56 bg-[#0C011A] h-screen overflow-hidden'>
-			<div className='flex flex-col pl-60 md:pl-40 gap-3'>
+		<div className='flex mdd:flex-row flex-col place-items-start pl-28 mdd:items-center gap-5 xlll:gap-20 xll:gap-56 bg-[#0C011A] h-screen overflow-auto'>
+			<div className='flex flex-col pl-3 mdd:pl-40 gap-3 pt-60 mdd:pt-0'>
 				<h1 className='text-[50px] text-white font-semibold'>
 					Let's talk<span className='text-red-500'>.</span>
 				</h1>
@@ -14,7 +14,7 @@ function Page() {
 				</p>
 			</div>
 			<ContactInfo />
-			<div className='absolute top-24 right-28 max-w-[400px] text-[12px] text-gray-200 md:text-gray-400'>
+			<div className='absolute top-24 right-28 max-w-[400px] text-[12px] hidden md:block md:text-gray-400'>
 				You can also reach me out via social media
 			</div>
 			<div className='absolute -left-10 bottom-5 rotate-12 animate-pulse duration-75'>
@@ -23,7 +23,7 @@ function Page() {
 					alt='bulb'
 					width={260}
 					height={260}
-					className='w-full h-full md:block'
+					className='hidden mddd:block w-[128px] h-[196px]'
 				/>
 			</div>
 		</div>

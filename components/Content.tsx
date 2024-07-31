@@ -14,7 +14,7 @@ const Content = () => {
 		let project1 = ProImages[newId]
 
 		return (
-			<main className='section h-screen'>
+			<main className='section h-screen '>
 				<div className='container'>
 					<div className='project-details'>
 						<h1 className='title-1'>{project1.title}</h1>
@@ -37,7 +37,7 @@ const Content = () => {
 						alt='bulb'
 						width={260}
 						height={260}
-						className='w-full h-full md:block'
+						className='hidden mddd:block w-[128px] h-[196px]'
 					/>
 				</div>
 			</main>

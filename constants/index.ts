@@ -20,19 +20,19 @@ import project04Big from '../public/assets/projects/TodoList.png'
 
 export const Socials = [
 	{
-		id: 'LinkedIn',
+		id: 1,
 		name: 'LinkedIn',
 		src: '/assets/icons/linkedIn.svg',
 		link: 'https://www.linkedin.com/in/andrii-tynnyi-a6612021b/',
 	},
 	{
-		id: 'GitHub',
+		id: 2,
 		name: 'GitHub',
 		src: '/assets/icons/gitHub.svg',
 		link: 'https://github.com/Noranmo?tab=repositories',
 	},
 	{
-		id: 'Instagram',
+		id: 3,
 		name: 'Instagram',
 		src: '/assets/instagram.svg',
 		link: 'https://www.instagram.com/tynnyi_andrii/',
@@ -41,16 +41,19 @@ export const Socials = [
 
 export const NavLinks = [
 	{
+		id: 1,
 		name: 'Home',
 		icon: RxHome,
 		link: '/',
 	},
 	{
+		id: 2,
 		name: 'Skills',
 		icon: RxPerson,
 		link: '/my-skills',
 	},
 	{
+		id: 3,
 		name: 'Projects',
 		icon: RxDashboard,
 		link: '/my-projects',
@@ -61,6 +64,7 @@ export const NavLinks = [
 	// 	link: '/project-page',
 	// },
 	{
+		id: 4,
 		name: 'Contact',
 		icon: RxPencil2,
 		link: '/my-contacts',
@@ -72,7 +76,7 @@ export const ProImages = [
 		id: 0,
 		src: '/assets/projects/MrFox.png',
 		bigImage: project01Big,
-		title: 'MrFox web-shop',
+		title: 'MrFox webShop',
 		skills: 'HTML, CSS, SCSS, JS, EJS, Node.js, Express.js',
 		githubLink: 'https://github.com/Noranmo/MrFox',
 	},
@@ -135,54 +139,63 @@ export const ProImages2 = [
 
 export const ServiceData = [
 	{
+		id: 1,
 		icon: RxReader,
 		title: 'HTML5 + CSS3',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		backgroundImage: '/assets/space/SpaceCity1.jpg',
 	},
 	{
+		id: 2,
 		icon: RxCrop,
 		title: 'SASS/ SCSS',
 		content: 'Lorem ipsum dolor sit /amet, consectetur adipiscing elit.',
 		backgroundImage: '/assets/space/SpaceCity5.jpeg',
 	},
 	{
+		id: 3,
 		icon: RxDesktop,
 		title: 'Flex/ Grid',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		backgroundImage: '/assets/space/SpaceCity6.jpeg',
 	},
 	{
+		id: 4,
 		icon: RxPencil2,
 		title: 'Methology BEM',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		backgroundImage: '/assets/space/SpaceCity7.jpeg',
 	},
 	{
+		id: 5,
 		icon: RxRocket,
 		title: 'MaterialUi / TailwindCss',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		backgroundImage: '/assets/space/SpaceCity8.jpeg',
 	},
 	{
+		id: 6,
 		icon: RxAccessibility,
 		title: 'JavaScript',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		backgroundImage: '/assets/space/SpaceCity9.jpeg',
 	},
 	{
+		id: 7,
 		icon: RxCrop,
 		title: 'TypeScript + React',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		backgroundImage: '/assets/space/SpaceCity1.jpg',
 	},
 	{
+		id: 8,
 		icon: RxDesktop,
 		title: 'GitHub / Storybook',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		backgroundImage: '/assets/space/SpaceCity5.jpeg',
 	},
 	{
+		id: 9,
 		icon: RxPencil2,
 		title: 'Test driving development (Unit Tests)',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',

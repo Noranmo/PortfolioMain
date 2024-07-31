@@ -8,7 +8,7 @@ import '../style/projectItem.css'
 
 export default function Home() {
 	return (
-		<main className="flex overflow-hidden items-center h-screen relative bg-cover bg-[url('/assets/bg-explosion.png')]">
+		<main className="flex items-center h-screen relative bg-cover bg-[url('/assets/bg-explosion.png')] overflow-auto">
 			<DotsAnimation />
 			<MoustacheMan />
 			<TopLeftImage />
@@ -43,7 +43,7 @@ function RunningText() {
 				alt='/my-projects'
 				width={160}
 				height={160}
-				className='slow-spin mt-16 '
+				className='slow-spin mt-16 w-[120px] sm:w-[160px]'
 			/>
 		</Link>
 	)
@@ -77,7 +77,7 @@ function MoustacheMan() {
 				alt='MoustacheMan'
 				width={480}
 				height={480}
-				className='w-[300px] h-[300px] z-[1] md:h-[400px] md:w-[400px] mdd:h-[480px] mdd:w-[480px]'
+				className='hidden sm:block w-[300px] h-[300px] z-[1] md:h-[400px] md:w-[400px] mdd:h-[480px] mdd:w-[480px]'
 			/>
 		</div>
 	)

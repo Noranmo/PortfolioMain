@@ -38,15 +38,15 @@ const Sidebar = () => {
 			<AnimatePresence mode='wait'>
 				{isRouting && <Transition />}
 				<div className='flex flex-col gap-5 pb-3 justify-center items-center h-full '>
-					{NavLinks.map(link => (
+					{NavLinks.map((link, index) => (
 						<Link
-							key={link.name}
+							key={index}
 							href={link.link}
 							onClick={() => {
 								return setIsActive(link.name)
 							}}
 						>
-							<link.icon className='sidebar' />
+							<link.icon key={index} className='sidebar' />
 							{/* {isActive === link.name ? 'text-orange-500' : 'text-white'} */}
 						</Link>
 					))}

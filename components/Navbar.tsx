@@ -27,8 +27,8 @@ const Navbar = () => {
 					<>
 						<Link key={social.name} href={social.link} target='_blank'>
 							<Image
-								id={social.id}
-								key={social.name}
+								id={social.name}
+								key={social.id}
 								src={social.src}
 								alt={social.name}
 								width={24}

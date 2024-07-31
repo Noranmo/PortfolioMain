@@ -12,7 +12,7 @@ import { ServiceData } from '@/constants'
 
 const ServiceSlider = () => {
 	return (
-		<div className='md:bottom-40 md:right-28 dm:right-20 w-[45%] md:w-[25%] lg:w-[30%] mddd:w-[40%] xlll:w-[45%] xll:w-[50%]'>
+		<div className='md:bottom-40 w-[70%] xs:w-[45%] dm:w-[25%] lg:w-[30%] mddd:w-[40%] xlll:w-[45%] xll:w-[50%]'>
 			<Swiper
 				breakpoints={{
 					1350: {
@@ -38,8 +38,8 @@ const ServiceSlider = () => {
 				}}
 				modules={[Autoplay, FreeMode, Pagination]}
 			>
-				{ServiceData.map(item => (
-					<SwiperSlide key={item.title}>
+				{ServiceData.map((item, index) => (
+					<SwiperSlide key={index}>
 						<div className='rounded-md cursor-pointer flex flex-col gap-6 mb-10 group relative text-white shadow-lg rounde-xl px-6 py-8 h-[230px] lg:h-[300px] w-[250-px] overflow-hidden'>
 							<div
 								className='absolute inset-0 bg-cover bg-center'

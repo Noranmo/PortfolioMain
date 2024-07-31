@@ -6,38 +6,43 @@ import { Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/pagination'
 import 'swiper/css/free-mode'
-import '../style/slider.css'
 
 import { FreeMode, Pagination } from 'swiper/modules'
 import { ProImages, ProImages2 } from '@/constants'
 import Image from 'next/image'
 
+import '../style/sviper.css'
+
 const ProjectSlider = () => {
 	return (
-		<div className='w-[70%] md:w-[41%]'>
+		<div className='w-[70%] mddd:w-[41%]'>
 			<Swiper
 				breakpoints={{
 					700: {
 						slidesPerView: 1,
 						spaceBetween: 30,
 					},
+					1130: {
+						slidesPerView: 2,
+						spaceBetween: 15,
+					},
 				}}
-				// autoplay={{
-				// 	delay: 4500,
-				// 	disableOnInteraction: false,
-				// }}
+				autoplay={{
+					delay: 4500,
+					disableOnInteraction: false,
+				}}
 				freeMode={true}
 				pagination={{
 					clickable: true,
 				}}
 				// Autoplay
-				modules={[FreeMode, Pagination]}
+				modules={[Autoplay, FreeMode, Pagination]}
 			>
 				<SwiperSlide className='mb-14'>
-					<div className='grid grid-cols-2 gap-4 md:px-16'>
+					<div className='swiper_grid gap-3 rounded-md cursor-pointer flex flex-col mb-10 relative text-white shadow-lg rounde-xl'>
 						{ProImages.map(image => (
 							<div
-								className='relative w-[150px] h-[150px] md:w-[230px] md:h-[230px]'
+								className='relative group w-[230px] h-[230px]'
 								key={image.src}
 							>
 								{' '}

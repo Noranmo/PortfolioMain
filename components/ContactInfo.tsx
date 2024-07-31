@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 function ContactInfo() {
 	return (
-		<div className='w-[800px] text-[16px] mt-32 text-gray-200 md:text-gray-400'>
+		<div className='w-[250px] mdd:w-[800px] text-[16px] mt-32 text-gray-200 md:text-gray-400'>
 			<div className='mainPage__getintouch getintouch getintouch__contact'>
 				<div className='getintouch__container _container'>
 					<div className='getintouch__items'>
@@ -16,7 +16,7 @@ function ContactInfo() {
 								<Image src={contactLink} alt='contactLink' />
 							</div>
 							<div className='item-getintouch__emails'>
-								<div className='item-getintouch__email'>
+								<div className='item-getintouch__email email_color'>
 									Find me on LinkedIn
 								</div>
 							</div>

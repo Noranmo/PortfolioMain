@@ -1,13 +1,26 @@
 .section {
 	display: flex;
 	align-items: center;
-	padding: 120px 0px 40px 0px;
+	padding: 180px 0px 20px 50px;
 	background-color: #0c011a;
 	min-height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+@media (min-width: 640px) {
+	.section {
+		display: flex;
+		align-items: center;
+		padding: 180px 0px 40px 0px;
+		background-color: #0c011a;
+		min-height: 100%;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
 }
 
 .container {

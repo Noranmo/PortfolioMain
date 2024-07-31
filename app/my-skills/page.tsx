@@ -4,7 +4,7 @@ import ServiceSlider from '@/components/ServiceSlider'
 
 const Page = () => {
 	return (
-		<div className='flex flex-col dm:flex-row items-center gap-20 bg-[#0C011A] h-screen overflow-hidden'>
+		<div className='flex flex-col dm:flex-row plcae-items-center pl-28 dm:items-center gap-20 bg-[#0C011A] h-screen overflow-auto'>
 			<div className='dm:pl-44 flex flex-col gap-3 pb-0 pt-60 dm:pt-0'>
 				<h1 className='text-[35px] sm:text-[50px] text-white font-semibold'>
 					My Skills<span className='text-red-500'>.</span>
@@ -16,13 +16,13 @@ const Page = () => {
 					refer to my CV.
 				</p>
 			</div>
-			<div className='hidden md:block absolute -left-10 bottom-5 rotate-12 animate-pulse duration-75'>
+			<div className='absolute -left-10 bottom-5 rotate-12 animate-pulse duration-75'>
 				<Image
 					src='/assets/bulb.png'
 					alt='bulb'
 					width={260}
 					height={260}
-					className='w-full h-full md:block'
+					className='hidden dm:block w-[128px] h-[196px]'
 				/>
 			</div>
 			{<ServiceSlider />}

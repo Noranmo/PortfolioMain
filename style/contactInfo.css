@@ -1,17 +1,15 @@
 .getintouch {
-	padding: 30px 0px 100px 0px;
+	padding: 10px 0px 20px 0px;
 }
 .getintouch__header {
-	margin: 0px 0px 80px 0px;
+	margin: 0px 0px 20px 0px;
 }
 .getintouch__items {
 	margin: 0px -15px;
 }
-@media (min-width: 992px) {
+@media (min-width: 1080px) {
 	.getintouch__items {
-		margin: 0;
-		display: -webkit-box;
-		display: -ms-flexbox;
+		margin: 0px 25px 0px 0px;
 		display: flex;
 		-webkit-box-align: center;
 		-ms-flex-align: center;
@@ -36,22 +34,13 @@
 
 @media (max-width: 992px) {
 	.getintouch {
-		padding: 50px 0px;
+		padding: 10px 0px;
 	}
 }
 .item-getintouch {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
 	flex-direction: column;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
 	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
 	align-items: center;
 	background: #e3e6f3;
 	padding: 50px 15px;
@@ -100,6 +89,9 @@
 	font-size: 16px;
 	line-height: 150%;
 }
+.email_color {
+	color: #9ca3af !important;
+}
 
 .item-getintouch__label {
 	font-weight: bold;
@@ -147,14 +139,8 @@
 }
 @media (min-width: 767px) {
 	.contact__body {
-		display: -webkit-box;
-		display: -ms-flexbox;
 		display: flex;
-		-webkit-box-pack: justify;
-		-ms-flex-pack: justify;
-		justify-content: space-between;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
+		//justify-content: space-between;
 		align-items: center;
 	}
 	.contact__content {
