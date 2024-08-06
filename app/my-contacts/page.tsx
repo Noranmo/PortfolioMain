@@ -4,7 +4,7 @@ import Image from 'next/image'
 function Page() {
 	return (
 		<div className='flex mdd:flex-row flex-col place-items-start pl-28 mdd:items-center gap-5 xlll:gap-20 xll:gap-56 bg-[#0C011A] h-screen overflow-auto'>
-			<div className='flex flex-col pl-3 mdd:pl-40 gap-3 pt-60 mdd:pt-0'>
+			<div className='flex flex-col pl-3 mdd:pl-20 gap-3 pt-60 mdd:pt-0'>
 				<h1 className='text-[50px] text-white font-semibold'>
 					Let's talk<span className='text-red-500'>.</span>
 				</h1>

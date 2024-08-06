@@ -40,7 +40,7 @@ const ServiceSlider = () => {
 			>
 				{ServiceData.map((item, index) => (
 					<SwiperSlide key={index}>
-						<div className='rounded-md cursor-pointer flex flex-col gap-6 mb-10 group relative text-white shadow-lg rounde-xl px-6 py-8 h-[230px] lg:h-[300px] w-[250-px] overflow-hidden'>
+						<div className='rounded-md cursor-pointer flex flex-col gap-6 mb-10 group relative text-white shadow-lg rounde-xl px-6 py-8 h-[230px] lg:h-[300px] w-[250-px] '>
 							<div
 								className='absolute inset-0 bg-cover bg-center'
 								style={{ backgroundImage: `url(${item.backgroundImage})` }}

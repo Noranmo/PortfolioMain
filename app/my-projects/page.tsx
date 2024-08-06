@@ -4,8 +4,8 @@ import React from 'react'
 
 const Page = () => {
 	return (
-		<div className='flex flex-col mddd:flex-row place-items-start pl-28 mddd:items-center gap-20 mddd:gap-10 xll:gap-56 h-screen bg-[#0C011A] overflow-auto'>
-			<div className='flex flex-col pl-3 mddd:pl-44 gap-3 pt-60 mddd:pt-0'>
+		<div className='flex flex-col mddd:flex-row place-items-start pl-44 mddd:items-center gap-20 mddd:gap-10 xll:gap-56 h-screen bg-[#0C011A] overflow-auto'>
+			<div className='flex flex-col pl-3 gap-3 pt-60 mddd:pt-0'>
 				<h1 className='text-[35px] sm:text-[50px] text-white font-semibold'>
 					Recent Work<span className='text-red-500'>.</span>
 				</h1>
