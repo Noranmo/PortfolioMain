@@ -7,7 +7,7 @@ import Image from 'next/image'
 
 function ContactInfo() {
 	return (
-		<div className='w-[250px] mdd:w-[800px] text-[16px] mt-32 text-gray-200 md:text-gray-400'>
+		<div className='w-[235px] mdd:w-[800px] text-[16px] mt-10 text-gray-200 md:text-gray-400'>
 			<div className='mainPage__getintouch getintouch getintouch__contact'>
 				<div className='getintouch__container _container'>
 					<div className='getintouch__items'>

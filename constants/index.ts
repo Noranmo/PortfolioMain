@@ -8,6 +8,7 @@ import {
 	RxHome,
 	RxPerson,
 	RxDashboard,
+	RxBackpack,
 } from 'react-icons/rx'
 
 import project01Big from '../public/assets/projects/MrFox.png'
@@ -54,15 +55,16 @@ export const NavLinks = [
 	},
 	{
 		id: 3,
+		name: 'Project',
+		icon: RxBackpack,
+		link: '/my-experience',
+	},
+	{
+		id: 4,
 		name: 'Projects',
 		icon: RxDashboard,
 		link: '/my-projects',
 	},
-	// {
-	// 	name: 'Project',
-	// 	icon: RxDashboard,
-	// 	link: '/project-page',
-	// },
 	{
 		id: 4,
 		name: 'Contact',
@@ -200,5 +202,65 @@ export const ServiceData = [
 		title: 'Test driving development (Unit Tests)',
 		content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
 		backgroundImage: '/assets/space/SpaceCity6.jpeg',
+	},
+]
+
+export const ExperienceData = [
+	{
+		id: 1,
+		period: '2022 - Mar 2024',
+		title: 'Working Student',
+		description:
+			'Maintenance of the educational platforms in GitHub and SAP SharePoint, creation and editing of content using HTML5, CSS3, Javascript & Markdown. Editing of videos, moderation of training sessions. Creating scripts using JavaScript. Analysis of information for further use with SAP Logon.',
+		technologies: [
+			{
+				id: 1,
+				name: 'HTML',
+			},
+			{
+				id: 2,
+				name: 'CSS',
+			},
+			{
+				id: 3,
+				name: 'JavaScript',
+			},
+			{
+				id: 4,
+				name: 'jQuery',
+			},
+			{
+				id: 5,
+				name: 'MkDocs',
+			},
+			{
+				id: 6,
+				name: 'Markdown',
+			},
+			{
+				id: 7,
+				name: 'GitHub',
+			},
+			{
+				id: 8,
+				name: 'SharePoint',
+			},
+			{
+				id: 9,
+				name: 'SAP Wiki',
+			},
+			{
+				id: 10,
+				name: 'Jira',
+			},
+			{
+				id: 11,
+				name: 'Ms Teams',
+			},
+			{
+				id: 12,
+				name: 'SAP Logon',
+			},
+		],
 	},
 ]

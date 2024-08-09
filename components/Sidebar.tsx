@@ -34,7 +34,7 @@ const Sidebar = () => {
 	}, [isRouting])
 
 	return (
-		<div className='fixed right-[83%] xs:right-[88%] sm:right-8 top-[40%] z-[20] h-[200px] pl-5 pr-5 w-[48px] rounded-full bg-gray-500 bg-opacity-50'>
+		<div className='fixed right-[83%] xs:right-[88%] sm:right-8 top-[40%] z-[20] h-[255px] pl-5 pr-5 w-[48px] rounded-full bg-gray-500 bg-opacity-50'>
 			<AnimatePresence mode='wait'>
 				{isRouting && <Transition />}
 				<div className='flex flex-col gap-5 pb-3 justify-center items-center h-full '>

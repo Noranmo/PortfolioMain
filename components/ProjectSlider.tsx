@@ -15,7 +15,7 @@ import '../style/sviper.css'
 
 const ProjectSlider = () => {
 	return (
-		<div className='w-[70%] mddd:w-[41%]'>
+		<div className='w-[70%] mddd:w-[500px] xll:w-[500px]'>
 			<Swiper
 				breakpoints={{
 					700: {
@@ -38,7 +38,7 @@ const ProjectSlider = () => {
 				// Autoplay
 				modules={[Autoplay, FreeMode, Pagination]}
 			>
-				<SwiperSlide className='mb-14'>
+				<SwiperSlide className=''>
 					<div className='swiper_grid gap-3 rounded-md cursor-pointer flex flex-col mb-10 relative text-white shadow-lg rounde-xl'>
 						{ProImages.map(image => (
 							<div

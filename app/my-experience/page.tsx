@@ -1,22 +1,19 @@
-import ContactInfo from '@/components/ContactInfo'
+import Experience from '@/components/Experience'
 import Image from 'next/image'
 
 function Page() {
 	return (
-		<div className='flex mdd:flex-row flex-col place-items-start pl-28 mdd:items-center gap-0 xlll:gap-20 xll:gap-56 bg-[#0C011A] h-screen overflow-auto'>
+		<div className='flex mdd:flex-row flex-col place-items-start pl-28 mdd:items-center gap-14 xlll:gap-32 xll:gap-56 bg-[#0C011A] h-screen overflow-auto'>
 			<div className='flex flex-col pl-0 mdd:pl-20 gap-3 pt-36 mdd:pt-0'>
 				<h1 className='text-[40px] text-white font-semibold'>
-					Let's talk<span className='text-red-500'>.</span>
+					Experience<span className='text-red-500'>.</span>
 				</h1>
 				<p className='max-w-[350px] text-[16px] text-gray-200 md:text-gray-400'>
-					You can ask me anything here. Feel free to contact me using any of the
-					methods listed on this page.
+					This section showcases my professional journey, detailing the
+					positions I’ve held and the technologies I’ve mastered.
 				</p>
 			</div>
-			<ContactInfo />
-			<div className='absolute top-24 right-28 max-w-[400px] text-[12px] hidden md:block md:text-gray-400'>
-				You can also reach me out via social media
-			</div>
+			<Experience />
 			<div className='absolute -left-10 bottom-5 rotate-12 animate-pulse duration-75'>
 				<Image
 					src='/assets/bulb.png'
