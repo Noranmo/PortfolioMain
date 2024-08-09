@@ -19,7 +19,7 @@ export default function Home() {
 
 function HomeInfoTogether() {
 	return (
-		<div className='flex flex-col gap-3 z-[10] pt-48 '>
+		<div className='flex flex-col gap-3 z-[10] pt-60 xs:pt-48 '>
 			<h1 className='text-[33px] sm:text-[50px] text-white max-w-[300px] sm:max-w-[370px] md:max-w-[700px]'>
 				Hi, my name is Andrii {''}
 				<span className='text-red-500'>Frontend developer</span>

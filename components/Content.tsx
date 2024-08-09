@@ -16,7 +16,7 @@ const Content = () => {
 		return (
 			<main className='section h-screen '>
 				<div className='container'>
-					<div className='project-details'>
+					<div className='project-details mb-10'>
 						<h1 className='title-1'>{project1.title}</h1>
 						<Image
 							src={project1.bigImage}
@@ -24,7 +24,7 @@ const Content = () => {
 							className='project-details__cover'
 						/>
 
-						<div className='project-details__desc'>
+						<div className='project-details__desc pl-4 pr-4 xs:pl-0 xs:pr-0'>
 							<p>Skills: {project1.skills}</p>
 						</div>
 
