@@ -81,7 +81,7 @@ export const ProImages = [
 		src: '/assets/projects/full_auth.png',
 		bigImage: project05Big,
 		title: 'MrFox Gold',
-		skills: 'React, TypeScript, Node.js, ',
+		skills: 'React, TypeScript, Node.js, Plaid, Appwrite, Dwolla, Sentry, Chart.js, ShadCn/ui',
 		githubLink: 'https://github.com/Noranmo/Banking-App',
 	},
 	{
