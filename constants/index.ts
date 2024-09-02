@@ -47,12 +47,12 @@ export const NavLinks = [
 		icon: RxHome,
 		link: '/',
 	},
-	{
-		id: 2,
-		name: 'Skills',
-		icon: RxPerson,
-		link: '/my-skills',
-	},
+	// {
+	// 	id: 2,
+	// 	name: 'Skills',
+	// 	icon: RxPerson,
+	// 	link: '/my-skills',
+	// },
 	{
 		id: 3,
 		name: 'Project',
