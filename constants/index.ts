@@ -11,6 +11,8 @@ import {
 	RxBackpack,
 } from 'react-icons/rx'
 
+import project05Big from '../public/assets/projects/full_auth.png'
+
 import project01Big from '../public/assets/projects/MrFox.png'
 
 import project02Big from '../public/assets/projects/PortfolioMain.png'
@@ -76,11 +78,11 @@ export const NavLinks = [
 export const ProImages = [
 	{
 		id: 0,
-		src: '/assets/projects/MrFox.png',
-		bigImage: project01Big,
-		title: 'MrFox webShop',
-		skills: 'HTML, CSS, SCSS, JS, EJS, Node.js, Express.js',
-		githubLink: 'https://github.com/Noranmo/MrFox',
+		src: '/assets/projects/full_auth.png',
+		bigImage: project05Big,
+		title: 'MrFox Gold',
+		skills: 'React, TypeScript, Node.js, ',
+		githubLink: 'https://github.com/Noranmo/Banking-App',
 	},
 	{
 		id: 1,
@@ -111,32 +113,33 @@ export const ProImages = [
 export const ProImages2 = [
 	{
 		id: 4,
-		src: '/assets/projects/Orange1.jpeg',
-		title: 'Project 5',
-		skills: 'HTML, CSS, JS',
-		githubLink: 'https://github.com',
+		src: '/assets/projects/MrFox.png',
+		bigImage: project01Big,
+		title: 'MrFox webShop',
+		skills: 'HTML, CSS, SCSS, JS, EJS, Node.js, Express.js',
+		githubLink: 'https://github.com/Noranmo/MrFox',
 	},
-	{
-		id: 5,
-		src: '/assets/projects/Orange2.jpeg',
-		title: 'Project 6',
-		skills: 'HTML, CSS, JS',
-		githubLink: 'https://github.com',
-	},
-	{
-		id: 6,
-		src: '/assets/projects/Orange3.jpeg',
-		title: 'Project 7',
-		skills: 'HTML, CSS, JS',
-		githubLink: 'https://github.com',
-	},
-	{
-		id: 7,
-		src: '/assets/projects/Orange4.jpeg',
-		title: 'Project 8',
-		skills: 'HTML, CSS, JS',
-		githubLink: 'https://github.com',
-	},
+	// {
+	// 	id: 5,
+	// 	src: '/assets/projects/Orange2.jpeg',
+	// 	title: 'Project 6',
+	// 	skills: 'HTML, CSS, JS',
+	// 	githubLink: 'https://github.com',
+	// },
+	// {
+	// 	id: 6,
+	// 	src: '/assets/projects/Orange3.jpeg',
+	// 	title: 'Project 7',
+	// 	skills: 'HTML, CSS, JS',
+	// 	githubLink: 'https://github.com',
+	// },
+	// {
+	// 	id: 7,
+	// 	src: '/assets/projects/Orange4.jpeg',
+	// 	title: 'Project 8',
+	// 	skills: 'HTML, CSS, JS',
+	// 	githubLink: 'https://github.com',
+	// },
 ]
 
 export const ServiceData = [

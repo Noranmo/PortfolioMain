@@ -1,5 +1,6 @@
 @media (min-width: 1130px) {
 	.swiper_grid {
+		width: fit-content;
 		display: grid;
 		grid-template-columns: minmax(230px, 230px) minmax(230px, 230px);
 		grid-template-rows: minmax(230px, 230px) minmax(230px, 230px);
