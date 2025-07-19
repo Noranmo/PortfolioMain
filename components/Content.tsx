@@ -28,7 +28,10 @@ const Content = () => {
 							<p>Skills: {project1.skills}</p>
 						</div>
 
-						<BtnGitHub link={project1.githubLink} />
+						<BtnGitHub
+							link={project1.githubLink}
+							webPageLink={project1.webPageLink}
+						/>
 					</div>
 				</div>
 				<div className='absolute -left-10 bottom-5 rotate-12 animate-pulse duration-75'>
