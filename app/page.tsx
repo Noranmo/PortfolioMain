@@ -53,7 +53,7 @@ function DownloadCv() {
 	return (
 		<a
 			href={
-				'https://drive.google.com/file/d/1MKjuiDq1p6m8EBKdD6yNuo5uEibWdVpj/view?usp=sharing'
+				'https://drive.google.com/file/d/1lM50_BPuDiGCEuXPP55yH7GXtsRKohin/view?usp=sharing'
 			}
 			target='_blank'
 		>
@@ -73,7 +73,7 @@ function MoustacheMan() {
 	return (
 		<div className='absolute -right- sm:right-10 md:right-50 mdd:right-40 bottom-0 z-[10]'>
 			<Image
-				src='/assets/me.png'
+				src='/assets/me2.png'
 				alt='MoustacheMan'
 				width={480}
 				height={480}

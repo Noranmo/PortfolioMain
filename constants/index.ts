@@ -21,6 +21,8 @@ import project03Big from '../public/assets/projects/Portfoliov2.png'
 
 import project04Big from '../public/assets/projects/TodoList.png'
 
+import project06Big from '../public/assets/projects/Olesia_Portfolio.png'
+
 export const Socials = [
 	{
 		id: 1,
@@ -81,7 +83,8 @@ export const ProImages = [
 		src: '/assets/projects/full_auth.png',
 		bigImage: project05Big,
 		title: 'MrFox Gold',
-		skills: 'React, TypeScript, Node.js, Plaid, Appwrite, Dwolla, Sentry, Chart.js, ShadCn/ui',
+		skills:
+			'React, TypeScript, Node.js, Plaid, Appwrite, Dwolla, Sentry, Chart.js, ShadCn/ui',
 		githubLink: 'https://github.com/Noranmo/Banking-App',
 	},
 	{
@@ -94,11 +97,12 @@ export const ProImages = [
 	},
 	{
 		id: 2,
-		src: '/assets/projects/Portfoliov2.png',
-		bigImage: project03Big,
-		title: 'Portfolio website',
-		skills: 'React.js, React-router-dom, JS, CSS',
-		githubLink: 'https://github.com/Noranmo/Portfolio_React',
+		src: '/assets/projects/Olesia_Portfolio.png',
+		bigImage: project06Big,
+		title: 'Artist Portfolio',
+		skills: 'React.js, TypeScript, Node.js, TailwindCss, CSS',
+		githubLink: '',
+		webPageLink: 'https://olesia-tverdokhlib.vercel.app/',
 	},
 	{
 		id: 3,
@@ -119,13 +123,14 @@ export const ProImages2 = [
 		skills: 'HTML, CSS, SCSS, JS, EJS, Node.js, Express.js',
 		githubLink: 'https://github.com/Noranmo/MrFox',
 	},
-	// {
-	// 	id: 5,
-	// 	src: '/assets/projects/Orange2.jpeg',
-	// 	title: 'Project 6',
-	// 	skills: 'HTML, CSS, JS',
-	// 	githubLink: 'https://github.com',
-	// },
+	{
+		id: 5,
+		src: '/assets/projects/Portfoliov2.png',
+		bigImage: project03Big,
+		title: 'Portfolio website',
+		skills: 'React.js, React-router-dom, JS, CSS',
+		githubLink: 'https://github.com/Noranmo/Portfolio_React',
+	},
 	// {
 	// 	id: 6,
 	// 	src: '/assets/projects/Orange3.jpeg',
@@ -211,6 +216,52 @@ export const ServiceData = [
 export const ExperienceData = [
 	{
 		id: 1,
+		period: 'Oct 2024 - Present',
+		title: 'Developer Associate',
+		description:
+			'Technical support and content creation for applications in Finance Group Reporting using SAP UI5 and MVC principles',
+		technologies: [
+			{
+				id: 1,
+				name: 'SAP Fiori',
+			},
+			{
+				id: 2,
+				name: 'SAP UI5',
+			},
+			{
+				id: 3,
+				name: 'metadata API',
+			},
+			{
+				id: 4,
+				name: 'Unit Tests',
+			},
+			{
+				id: 5,
+				name: 'MVC',
+			},
+			{
+				id: 6,
+				name: 'SAP Logon',
+			},
+			{
+				id: 7,
+				name: 'Jira',
+			},
+			{
+				id: 8,
+				name: 'GitHub',
+			},
+			{
+				id: 9,
+				name: 'Scrum',
+			},
+		],
+		additionalMaterials: '',
+	},
+	{
+		id: 1,
 		period: '2022 - Mar 2024',
 		title: 'Working Student',
 		description:
@@ -265,5 +316,7 @@ export const ExperienceData = [
 				name: 'SAP Logon',
 			},
 		],
+		additionalMaterials:
+			'https://drive.google.com/file/d/1MmrCCdNQpUyJRMbeGAzihwhkV8Nrslrg/view?usp=sharing',
 	},
 ]
